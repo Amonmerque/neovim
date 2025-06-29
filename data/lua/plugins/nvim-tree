@@ -8,7 +8,7 @@ return {
   config = function()
     require("nvim-tree").setup({})
     -- updates the root directory of the tree on `DirChanged` (when your run `:cd` usually)
-    update_cwd          = true,
+    update_cwd          = false,
     -- On utilise <leader>e pour ouvrir/fermer l'explorateur
     vim.keymap.set(
       "n",
