@@ -25,7 +25,7 @@ vim.opt.rtp:prepend(lazypath)
   },
   -- thème utilisé lors de l'installation de plugins
   -- install = { colorscheme = { "tokyonight" } },
-  install = { colorscheme = { "vesper" } },
+  install = { colorscheme = { "kanagawa" } },
   -- désactive la pénible notification au démarrage
   change_detection = {
     notify = false,
