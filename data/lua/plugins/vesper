@@ -1,0 +1,17 @@
+return {
+  "datsfilipe/vesper.nvim",
+  transparent = false, -- Boolean: Sets the background to transparent
+  italics = {
+      comments = true, -- Boolean: Italicizes comments
+      keywords = true, -- Boolean: Italicizes keywords
+      functions = true, -- Boolean: Italicizes functions
+      strings = true, -- Boolean: Italicizes strings
+      variables = true, -- Boolean: Italicizes variables
+  },
+  overrides = {},
+  palette_overrides = {},
+  config = function()
+  -- chargement du thème
+  vim.cmd([[colorscheme vesper]])
+  end,
+}
